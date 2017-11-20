@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_display_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CommonPadding"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/locationSummeryListName"
+        android:textSize="14sp"
+     />
+    <TextView
+        style="@style/CommonPadding"
+        android:id="@+id/tv_test_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginRight="25dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        style="@style/CommonPadding"
+        android:id="@+id/tv_test_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@color/faq_answer"/>
+
+</LinearLayout>

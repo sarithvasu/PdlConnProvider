@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:clickable="true"
+    tools:context="com.effone.pdlconnprovider.fragment.TestCatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_search_test_cat"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:hint="@string/search_for_tests"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:lines="1"
+                android:textColorHint="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/iv_search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/search_a_48x48px" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:padding="1dp"
+            android:gravity="center"
+            android:lines="1"/>
+
+
+        <com.effone.pdlconnprovider.widget.IndexableListView
+            android:id="@+id/test_cat_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/divider_test_list"
+            android:descendantFocusability="beforeDescendants"
+            android:dividerHeight="2dp"
+            android:padding="5dp">
+
+        </com.effone.pdlconnprovider.widget.IndexableListView>
+    </LinearLayout>
+
+</FrameLayout>

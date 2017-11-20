@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="locationSummeryListName">#00FF00</color>
+    <color name="detail_divider">#367cbb</color>
+    <color name="faq_question">#E5EDF3</color>
+    <color name="faq_answer">#ABCAE3</color>
+</resources>

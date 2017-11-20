@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.effone.pdlconnprovider.fragment.AboutFragment"
+    android:clickable="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About PDL"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/iv_pdl_web_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rsz_lanuch"
+            />
+        <ImageView
+            android:id="@+id/iv_about_email_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rsz_email"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            />
+        </LinearLayout>
+    <!-- <Spinner
+         android:layout_width="match_parent"
+         android:layout_height="29dp"
+         android:entries="@array/items"
+         android:drawable="@drawable/borderforspinner"
+         android:paddingTop="5dp"
+         android:paddingLeft="5dp"
+         android:paddingBottom="5dp"
+         android:paddingRight="5dp">
+
+     </Spinner>-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/detail_divider"
+        android:id="@+id/imageView5" />
+
+    <WebView
+        android:layout_marginTop="5dp"
+        android:id="@+id/wv_about_detail"
+        android:background="@android:color/transparent"
+        android:layerType="software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+</LinearLayout>
+
+</FrameLayout>

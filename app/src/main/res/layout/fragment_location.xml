@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.effone.pdlconnprovider.fragment.LocationFragment"
+    android:clickable="true"
+    android:background="@drawable/background">
+
+    <ListView
+        android:id="@+id/location_summery_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:padding="5dp"
+        android:divider="@drawable/location_list_divider"
+        android:dividerHeight="3dp"
+
+        >
+
+    </ListView>
+
+</FrameLayout>

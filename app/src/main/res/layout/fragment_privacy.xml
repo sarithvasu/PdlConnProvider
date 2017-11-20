@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.effone.pdlconnprovider.fragment.PrivacyFragment"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PDL Privacy Notice"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/iv_privacy_email_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/email"
+                android:layout_margin="2dp"
+                />
+        </LinearLayout>
+        <!-- <Spinner
+             android:layout_width="match_parent"
+             android:layout_height="29dp"
+             android:entries="@array/items"
+             android:drawable="@drawable/borderforspinner"
+             android:paddingTop="5dp"
+             android:paddingLeft="5dp"
+             android:paddingBottom="5dp"
+             android:paddingRight="5dp">
+
+         </Spinner>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/detail_divider"
+            android:id="@+id/imageView5" />
+
+        <WebView
+            android:layout_marginTop="5dp"
+            android:id="@+id/wv_privacy_detail"
+            android:background="@android:color/transparent"
+            android:layerType="software"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+</FrameLayout>

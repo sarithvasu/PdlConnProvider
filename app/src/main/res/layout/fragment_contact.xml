@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.effone.pdlconnprovider.fragment.ContactFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Contact Us"
+                android:textAlignment="center"
+                style="@style/ContactUsPadding"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/detail_divider" />
+
+        <TextView
+            android:id="@+id/contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:layout_marginTop="20dp"
+            style="@style/LeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/tv_g_i_phone"
+            android:autoLink="phone"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            style="@style/LeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_g_i_t_phone"
+            style="@style/LeftMargin"
+            android:autoLink="phone"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_bill_phone"
+            android:layout_width="wrap_content"
+            android:autoLink="phone"
+            android:textColor="@android:color/white"
+            style="@style/LeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fax:"
+
+            style="@style/LeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fax_in_contact"
+            android:textColor="@android:color/white"
+            style="@style/LeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            style="@style/LeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LeftMargin"
+            android:autoLink="email"
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_email_in_contact"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LeftMargin"
+            android:id="@+id/tv_lab_address1"
+            android:text="Address:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LeftMargin"
+            android:id="@+id/tv_lab_address"
+            android:gravity="bottom"
+            android:drawableRight="@drawable/direction"
+            android:text="Lab Address  "
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_address_in_contact"
+            android:text=""
+
+            style="@style/LeftMargin"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"  />
+    </LinearLayout>
+</FrameLayout>

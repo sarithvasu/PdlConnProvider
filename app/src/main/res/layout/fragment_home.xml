@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.effone.pdlconnprovider.fragment.HomeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homescreen_back1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:layout_above="@+id/linearLayout4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="15dp"
+            android:paddingTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_pdl_connector"
+                android:drawableTop="@drawable/fmh"
+                android:layout_weight="1"
+                android:text="PDL Connect"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_test_cat"
+                android:drawableTop="@drawable/testcatalog_a_48x48px"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Test Catalog"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_location"
+                android:drawableTop="@drawable/location"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Locations"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/linearLayout4"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+           </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_conatact_us"
+                android:drawableTop="@drawable/contactus_a_48x48px"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Contact Us"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_settings"
+                android:drawableTop="@drawable/myprofile_a_48x48px"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Settings"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_about_us"
+                android:drawableTop="@drawable/about_a_48x48px"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="About"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_copy_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:text="@string/copyright_text"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

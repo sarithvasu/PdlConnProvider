@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.effone.pdlconnprovider.fragment.AboutUsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:id="@+id/sfa">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="About Us"
+                android:id="@+id/tv_about"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about"
+                android:id="@+id/tv_faq"
+                android:textAlignment="center"
+                android:text="FAQ"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Faq"
+                android:textAlignment="center"
+                android:text="Privacy"
+                android:textStyle="bold"
+                android:id="@+id/tv_privacy"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

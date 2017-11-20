@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PDL Providers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="copyright_text">&#169; 2011-%1$s Pacific Diagnostic Laboratories. All rights reserved.</string>
+    <string name="phone">Phone:</string>
+    <string name="fax">Fax:</string>
+    <string name="work_hours">Work Hours:</string>
+    <string name="location_details">Location Details</string>
+    <string name="get_direction">Get Directions</string>
+    <string name="search_for_tests">search for tests</string>
+    <string name="search_for_location">Search Locations</string>
+    <string name="enter_adress">enter zip / address</string>
+    <string name="address">ZIP / Address:</string>
+    <string name="radius">Radius:</string>
+    <string name="select_radius">Select radius</string>
+    <string-array name="radiuses">
+        <item>5 mi</item>
+        <item>10 mi</item>
+        <item>15 mi</item>
+        <item>20 mi</item>
+        <item>25 mi</item>
+        <item>50 mi</item>
+        <item>100 mi</item>
+    </string-array>
+</resources>

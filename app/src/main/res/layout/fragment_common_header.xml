@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.effone.pdlconnprovider.fragment.CommonHeaderFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+        android:id="@+id/linearLayout"
+        android:background="@drawable/border"
+        android:layout_gravity="top">
+        <ImageView
+            android:id="@+id/iv_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tv_title"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            android:layout_gravity="center" />
+        <ImageView
+            android:id="@+id/iv_home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rsz_home_a_48x48px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+</FrameLayout>
